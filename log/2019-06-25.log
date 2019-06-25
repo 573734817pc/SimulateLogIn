@@ -1,0 +1,25 @@
+2019-06-25 15:06:52,732 - C:\Users\0923\Desktop\sql优化\Email\SimulateLogInLib\SimulateLogIn.py[line:22] - ERROR: unknown encoding: 
+Traceback (most recent call last):
+  File "C:\Users\0923\Desktop\sql优化\Email\SimulateLogInLib\SimulateLogIn.py", line 10, in simulate_login
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding=self.encoding)
+LookupError: unknown encoding: 
+2019-06-25 15:08:48,893 - C:\Users\0923\Desktop\sql优化\Email\SimulateLogInLib\SimulateLogIn.py[line:23] - ERROR: unknown encoding: 
+Traceback (most recent call last):
+  File "C:\Users\0923\Desktop\sql优化\Email\SimulateLogInLib\SimulateLogIn.py", line 11, in simulate_login
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding=self.encoding)
+LookupError: unknown encoding: 
+2019-06-25 15:09:00,898 - C:\Users\0923\Desktop\sql优化\Email\SimulateLogInLib\SimulateLogIn.py[line:24] - ERROR: unknown encoding: 
+Traceback (most recent call last):
+  File "C:\Users\0923\Desktop\sql优化\Email\SimulateLogInLib\SimulateLogIn.py", line 12, in simulate_login
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding=self.encoding)
+LookupError: unknown encoding: 
+2019-06-25 15:13:50,336 - C:\Users\0923\Desktop\sql优化\Email\SimulateLogInLib\SimulateLogIn.py[line:24] - ERROR: 'SimulateLogInConf' object has no attribute 'encoding'
+Traceback (most recent call last):
+  File "C:\Users\0923\Desktop\sql优化\Email\SimulateLogInLib\SimulateLogIn.py", line 11, in simulate_login
+    print(self.encoding)
+AttributeError: 'SimulateLogInConf' object has no attribute 'encoding'
+2019-06-25 15:19:24,524 - C:\Users\0923\Desktop\sql优化\Email\SimulateLogInLib\SimulateLogIn.py[line:22] - ERROR: unknown encoding: 
+Traceback (most recent call last):
+  File "C:\Users\0923\Desktop\sql优化\Email\SimulateLogInLib\SimulateLogIn.py", line 10, in simulate_login
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding=self.encoding)
+LookupError: unknown encoding: 
